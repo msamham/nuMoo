@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: NumMoBot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python main.py
+    autoDeploy: true
+    envVars:
+      - key: API_ID
+        value: 25266397
+      - key: API_HASH
+        value: f2a1ca192e6515e9df958c8011741207
+      - key: BOT_TOKEN
+        value: 7883811901:AAGlWec5lNXp6drl1StLnXIR6PQvTPGfdzM
